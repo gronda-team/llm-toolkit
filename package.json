@@ -1,5 +1,5 @@
 {
-  "name": "@pezzo/llm-toolkit",
+  "name": "@gronda-team/llm-toolkit",
   "version": "0.7.0",
   "description": "Your library description",
   "main": "dist/index.js",
@@ -19,5 +19,8 @@
   "devDependencies": {
     "@types/node": "^20.12.7",
     "typescript": "^5.1.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
